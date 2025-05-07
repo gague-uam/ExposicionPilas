@@ -10,7 +10,7 @@ class Pila:
             return self.donantes.pop()
         return None
     
-    def peek(self):
+    def ver_tope(self):  # Cambiado de peek a ver_tope
         if not self.esta_vacia():
             return self.donantes[-1]
         return None
